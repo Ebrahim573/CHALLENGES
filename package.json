@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "name": "diwalichallenge",
     "version": "1.0.0",
     "description": "",
@@ -19,7 +18,7 @@
         "serve-favicon": "^2.5.0"
     }
 }
-=======
+
   "name": "diwalichallenge",
   "version": "1.0.0",
   "description": "",
@@ -39,4 +38,4 @@
     "serve-favicon": "^2.5.0"
   }
 }
->>>>>>> b991af995c2c7ea1b2ec07cb25be633a21b3a51d
+
