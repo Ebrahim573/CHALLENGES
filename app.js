@@ -1,7 +1,7 @@
 const express = require('express');
 const app = new express();
 const path = require('path');
-var nodemailer = require('nodemailer');
+var nodemailer = require("nodemailer");
 const favicon = require('serve-favicon');
 const port = process.env.PORT || 4000;
 app.use(favicon(path.join('public', 'diwali.gif')));
@@ -22,13 +22,13 @@ app.post('/submit', (req, res) => {
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'diwalirwisher@gmail.com',
-            pass: 'asdfghjkloqwertyuiop'
+            user: 'diwaliwisher@gmail.com',
+            pass: 'asdfghjkl'
         }
     });
 
     var mailOptions = {
-        from: 'diwalirwisher@gmail.com',
+        from: 'diwaliwisher@gmail.com',
         to: req.body.email,
         subject: 'Happy Diwali',
         text: ` Hi ${req.body.wname}, ${req.body.uname} wishes you a happy and safe Diwali.`,
