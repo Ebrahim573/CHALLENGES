@@ -22,13 +22,22 @@ app.post('/submit', (req, res) => {
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
+<<<<<<< HEAD
             user: 'diwaliwisher@gmail.com',
             pass: 'asdfghjkl'
+=======
+            user: 'neyearwishmaster@gmail.com',
+            pass: 'qwertyuiopasdfghjkl'
+>>>>>>> b991af995c2c7ea1b2ec07cb25be633a21b3a51d
         }
     });
 
     var mailOptions = {
+<<<<<<< HEAD
         from: 'diwaliwisher@gmail.com',
+=======
+        from: 'newyearwishmaster@gmail.com',
+>>>>>>> b991af995c2c7ea1b2ec07cb25be633a21b3a51d
         to: req.body.email,
         subject: 'Happy Diwali',
         text: ` Hi ${req.body.wname}, ${req.body.uname} wishes you a happy and safe Diwali.`,

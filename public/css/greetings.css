@@ -1,6 +1,6 @@
 h1,h2{
     text-align: center;
-    color: orange;
+    color: #FFC300 ;
 }
 .confetti {
     display: flex;
